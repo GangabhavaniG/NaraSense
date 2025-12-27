@@ -62,7 +62,8 @@
               "buildTarget": "narasense_frontend:build:production"
             },
             "development": {
-              "buildTarget": "narasense_frontend:build:development"
+              "buildTarget": "narasense_frontend:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -92,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
